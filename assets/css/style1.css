@@ -1,0 +1,87 @@
+.tr-container .owl-carousel .item {
+  min-height: 557px;
+}
+.post-main {
+  min-height: 200px;
+  color: #fff;
+}
+.tr-contents-style1 {
+  max-width: 358px;
+  white-space: initial;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+}
+.tr-contents-style1 .post-title span {
+  font-size: 30px;
+  background-color: #cc373f;
+  line-height: 1.5;
+  color: #fff;
+}
+.owl-item{
+  overflow: hidden;
+}
+
+.tr-single-item:hover .post-title span {
+  background-color: #ffffff;
+  color: #cc373f;
+}
+.tr-contents-style1 .post-cat span{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  white-space: break-spaces;
+  color: #cc373f;
+}
+.tr-contents-style1 .post-cat{
+  line-height: initial;
+}
+.tr-contents-style1 .post-date{
+  line-height: initial;
+  margin-top: -8px;
+}
+.tr-contents-style1 .post-date span{
+  color: #5A5A5A;
+  font-size: 12px;
+}
+.tr-contents-style1 .post-cat span,
+.tr-contents-style1 .post-date span {
+  background-color: #fff;
+}
+.tr-contents-style-img-container {
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.tr-single-item:hover .tr-contents-style-img-container {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.tr-single-item:hover .tr-contents-style-img-container:before {
+  background: transparent linear-gradient(180deg, #db080800 0%, #000000 100%) 0%
+    0% no-repeat padding-box;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  content: "";
+  opacity: 0.6;
+}
+.tr-contents {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+.owl-dots {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}

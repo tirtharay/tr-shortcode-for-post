@@ -1,0 +1,130 @@
+.title-two-colors:before {
+    background-color: #6c56b3;
+    content: "";
+    height: 10px;
+    width: 44px;
+    display: block;
+    margin-bottom: 12px;
+  }
+.title-two-colors {
+    color: #6c56b3;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 19px;
+  }
+.tr-contents-style5 .tr-row.post-main {
+    min-height: 250px;
+    color: #fff;
+    display: flex;
+  }
+.tr-contents-style5 {
+  display: flex;
+  line-height: 1.5;
+  padding: 58px 0!important;
+  flex-wrap: wrap;
+}
+.tr-contents-style5 .tr-row{
+  align-items: stretch;
+  display: flex;
+  padding-left: 30px;
+}
+.tr-contents-style5 .tr-col-5{
+  position: relative;
+  background-size: cover;
+}
+.tr-contents-style5 .content-text .post-title span {
+  font-size: 18px;
+  color: #ffffff;
+  background: #cc373f;
+  white-space: initial;
+  line-height: 1.5;
+  font-weight: 200;
+}
+.tr-contents-style5 .post-title{
+    padding-bottom: 20px;
+  }
+  .tr-contents-style5 .post-title span {
+    font-size: 16px;
+    color: #333333;
+    white-space: initial;
+    line-height: 1.5;
+    font-weight: 600;
+}
+  .tr-contents-style5 .post-cat{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #CC373F;
+    font-weight: 700;
+  }
+  .tr-contents-style5 .post-date {
+    font-size: 12px;
+    color: #333333;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  .tr-contents-style5 .post-date {
+    font-size: 12px;
+    color: #333333;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  .tr-contents-style5 .post-main-wrap{
+    border-bottom: 1px solid #53535363;
+    flex-direction: column;
+    height: 100%;
+  }
+
+
+.tr-contents-style5 .content-text{
+  max-width: 350px;
+  white-space: initial;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+}
+
+  .bg-lightgrey{
+    background: #E8E8E8;
+  }
+
+/* Custom Media Queries */
+@media all and (max-width: 768px) {
+  .tr-contents-style4 .tr-col-6,
+  .tr-contents-style5 .tr-col-7{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+  }
+  .tr-row.tr-main-row{
+    flex-direction: column;
+    padding: 0;
+  }
+  .tr-contents-style5 .tr-col-7 .tr-col-6{
+    width:100%;
+  }
+  .tr-contents-style4 .tr-main-row{
+    flex-direction: column;
+    padding: 0;
+  }
+  .tr-bg-img,
+  .tr-contents-style4,
+  .tr-contents-style4 .post-title  {
+    width:100%;
+    max-width:100%;
+  }
+  .tr-contents-style5,
+  .tr-contents-style5 .tr-row{
+    flex-direction: column;
+    padding: 0;
+  }
+  .tr-contents-style5 .tr-col-5{
+    height: 250px;
+    width: 100%;
+  }
+  
+  
+}
